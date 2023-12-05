@@ -6,16 +6,18 @@
 function isPalindrome(str) {
     let start = 0;
     let end = str.length - 1;
+    str = str.toLowerCase();
+    const alphabetPattern = /^[a-zA-Z]+$/;
     while (start <= end) {
-        if (str[start] == " ") {
+        if (str[start] == " " || !alphabetPattern.test(str[start])) {
             start++;
             break;
         }
-        if (str[end] == " ") {
+        if (str[end] == " " || !alphabetPattern.test(str[end])) {
             end--;
             break;
         }
-        if (str[start].toLowerCase() != str[end].toLowerCase()) {
+        if (str[start] != str[end]) {
             return false;
         }
         start++;
