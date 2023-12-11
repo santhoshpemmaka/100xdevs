@@ -1,0 +1,3 @@
+Hi from the a.txt fileA.txt file update content from the fs module
+ A.txt file update content from the fs module
+ A.txt file update content from the fs module
