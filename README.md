@@ -1,1 +1,1 @@
-### 100xdevs Cohort-2 live coding pratice.
+### 100xdevs Cohort-2 assignment answers.
