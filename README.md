@@ -1,1 +1,1 @@
-### 100xdevs Cohort-2 Assignment Questions and Answers.
+### 100xdevs Cohort-2 assignment answers.
